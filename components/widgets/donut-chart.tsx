@@ -24,7 +24,10 @@ const fakeDonutInfo = [
   },
 ];
 
+// TODO: Add image + text + date + id
+
 export const DonutChart = () => {
+  
   return (
     <div className="flex flex-col gap-y-2 h-full overflow-y-auto">
       <h1 className="font-semibold">DonutChart</h1>

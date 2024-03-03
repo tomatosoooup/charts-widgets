@@ -1,5 +1,7 @@
-export type Chart = {
+export type DataItem = {
   id: string;
-  label?: string;
-  type: string;
+  author: string;
+  text: string;
+  date: Date;
+  avatar: string;
 };
